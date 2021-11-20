@@ -20,3 +20,4 @@ elif n3 > n1 and n3 > n2:
 
 print(f'O menor número digitado foi o {menor}')
 print(f'O maior número digitado foi o {maior}')
+
