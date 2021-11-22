@@ -15,3 +15,46 @@ No exemplo o valor da hora é 5 e a quantidade de hora é 220.
         FGTS (11%)                      : R$  121,00
         Total de descontos              : R$  165,00
         Salário Liquido                 : R$  935,00'''
+
+# ENTRADA DE DADOS
+valor_hora = float(input('Digite o valor da hora trabalhada: '))
+hora_trabalhada = float(input('Digite a quantidade de horas trabalhadas: '))
+
+# VARIAVEIS
+salario_bruto = valor_hora * hora_trabalhada
+ir = 0
+irp = 0
+inss = salario_bruto * (10/100)
+fgts = salario_bruto * (11/100)
+sindicato = salario_bruto * (3/100)
+total_desconto = ir + inss + sindicato
+
+# LÓGICA
+if salario_bruto <= 900:
+    ir = 0
+    irp = str('ISENTO')
+
+if salario_bruto > 900:
+    if salario_bruto <= 1500:
+        ir = salario_bruto * (5/100)
+        irp = str('5%')
+
+if salario_bruto > 1500:
+    if salario_bruto <= 2500:
+        ir = salario_bruto * (10/100)
+        irp = str('10%')
+
+if salario_bruto > 2500:
+    ir = salario_bruto * (20/100)
+    irp = str('20%')
+
+
+print(f''' 
+Salário Bruto: R$ {salario_bruto}
+(-) IR ({irp}): R$  {ir}
+(-) INSS (10%): R$ {inss}
+(-) SINDICATO (3%): R$: {sindicato}
+FGTS (11%): R$ {fgts}
+Total de descontos: R$ {total_desconto}
+Salário Liquido: R$ {salario_bruto - total_desconto} 
+''')
