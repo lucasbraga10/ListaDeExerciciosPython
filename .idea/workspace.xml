@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="366da779-6fd2-4b41-a03f-4caeff2bf460" name="Changes" comment="UPDATE">
-      <change afterPath="$PROJECT_DIR$/02 - EstruturaDeDecisao/15ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 - EstruturaDeDecisao/16ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="366da779-6fd2-4b41-a03f-4caeff2bf460" name="Changes" comment="UPDATE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637541240321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UPDATE">
+      <created>1638069071425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638069071425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
