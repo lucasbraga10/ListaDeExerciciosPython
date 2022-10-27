@@ -5,8 +5,8 @@ n2 = float(input('Digite outro número: '))
 maior = 0
 
 if n1 > n2:
-    maior = n1
+  maior = n1
 else:
-    maior = n2
+  maior = n2
 
 print(f'O maior número digitado foi o {maior}')

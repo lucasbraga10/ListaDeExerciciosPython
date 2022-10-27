@@ -4,8 +4,9 @@ latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de la
 e o preço total.
 '''
 
-metros = float(input("Digite a quantidade de metros quadrados a serem pintados: "))
-litros = metros/3
+metros = float(
+  input("Digite a quantidade de metros quadrados a serem pintados: "))
+litros = metros / 3
 
 precoL = 80.0
 capacidadeL = 18

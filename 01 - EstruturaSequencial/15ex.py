@@ -16,10 +16,11 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.'''
 valor_hora = float(input('Digite o valor do salário por hora: '))
 horas_trabalhadas = float(input('Digite apenas os HORAS TRABALHADAS: '))
 minutos_trabalhados = float(input('Digite apenas os MINUTOS TRABALHADOS: '))
-salario_bruto = float((horas_trabalhadas * valor_hora) + ((minutos_trabalhados/60) * valor_hora))
-ir = salario_bruto * (11/100)
-inss = salario_bruto * (8/100)
-sindi = salario_bruto * (5/100)
+salario_bruto = float((horas_trabalhadas * valor_hora) +
+                      ((minutos_trabalhados / 60) * valor_hora))
+ir = salario_bruto * (11 / 100)
+inss = salario_bruto * (8 / 100)
+sindi = salario_bruto * (5 / 100)
 
 print(f'''
 + Salário Bruto: R${salario_bruto:.2f}

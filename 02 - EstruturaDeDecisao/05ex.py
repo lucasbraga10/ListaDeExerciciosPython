@@ -6,11 +6,11 @@ a média alcançada por aluno e apresentar:
 
 nota1 = float(input('Digite a primeira nota: '))
 nota2 = float(input('Digite a segunda nota: '))
-media = (nota1 + nota2)/2
+media = (nota1 + nota2) / 2
 
 if 7 <= media < 10:
-    print('Aprovado')
+  print('Aprovado')
 elif media < 7:
-    print('Reprovado')
+  print('Reprovado')
 else:
-    print('Aprovado com Distinção')
+  print('Aprovado com Distinção')

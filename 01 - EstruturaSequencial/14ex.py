@@ -9,6 +9,5 @@ peso = float(input('Digite o peso total dos peixes: '))
 excesso = peso - 50
 multa = excesso * 4
 
-
 print(f'A quantidade excedida é de {excesso}KG')
 print(f'A multa a ser paga é de R$:{multa:.2f}')

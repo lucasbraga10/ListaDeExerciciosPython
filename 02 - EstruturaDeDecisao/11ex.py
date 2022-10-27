@@ -17,26 +17,26 @@ valor_aumento = float
 salario_novo = float
 
 if salario_atual <= 280:
-    percentual_aumento = 20
-    valor_aumento = salario_atual * (percentual_aumento / 100)
-    salario_novo = salario_atual + (salario_atual * (percentual_aumento / 100))
+  percentual_aumento = 20
+  valor_aumento = salario_atual * (percentual_aumento / 100)
+  salario_novo = salario_atual + (salario_atual * (percentual_aumento / 100))
 
 if salario_atual > 280:
-    if salario_atual <= 700:
-        percentual_aumento = 15
-        valor_aumento = salario_atual * (percentual_aumento / 100)
-        salario_novo = salario_atual + (salario_atual * (percentual_aumento / 100))
-
-if salario_atual > 700:
-    if salario_atual <= 1500:
-        percentual_aumento = 10
-        valor_aumento = salario_atual * (percentual_aumento / 100)
-        salario_novo = salario_atual + (salario_atual * (percentual_aumento / 100))
-
-if salario_atual > 1500:
-    percentual_aumento = 5
+  if salario_atual <= 700:
+    percentual_aumento = 15
     valor_aumento = salario_atual * (percentual_aumento / 100)
     salario_novo = salario_atual + (salario_atual * (percentual_aumento / 100))
+
+if salario_atual > 700:
+  if salario_atual <= 1500:
+    percentual_aumento = 10
+    valor_aumento = salario_atual * (percentual_aumento / 100)
+    salario_novo = salario_atual + (salario_atual * (percentual_aumento / 100))
+
+if salario_atual > 1500:
+  percentual_aumento = 5
+  valor_aumento = salario_atual * (percentual_aumento / 100)
+  salario_novo = salario_atual + (salario_atual * (percentual_aumento / 100))
 
 print(f'''
 Salario Atual: {salario_atual}

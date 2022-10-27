@@ -3,6 +3,6 @@
 letra = input('Digite ume letra: ').lower()
 
 if letra in ('a', 'e', 'i', 'o', 'u'):
-    print('Voce digitou uma vogal.')
+  print('Voce digitou uma vogal.')
 else:
-    print('Voce digitou uma consoante')
+  print('Voce digitou uma consoante')

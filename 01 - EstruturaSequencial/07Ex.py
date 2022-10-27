@@ -4,4 +4,6 @@ lado = float(input('Digite o valor do lado do quadrado: '))
 area = lado * lado
 
 print()
-print(f'A area do qudrado é igual a {area:.2f}, o dobro da area pe igual a {area * 2:.2f}')
+print(
+  f'A area do qudrado é igual a {area:.2f}, o dobro da area pe igual a {area * 2:.2f}'
+)

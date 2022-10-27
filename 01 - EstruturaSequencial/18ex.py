@@ -4,7 +4,7 @@ calcule e informe o tempo aproximado de download do arquivo usando este link (em
 '''
 
 tamanho = float(input('Digite o tamanho do arquivo: '))
-velocidade =  float(input('Digite a velocidade de download: '))
+velocidade = float(input('Digite a velocidade de download: '))
 mbps = velocidade / 8
 
 print(f'O tempo de download será de {(tamanho / mbps)/60:.2f} minutos')

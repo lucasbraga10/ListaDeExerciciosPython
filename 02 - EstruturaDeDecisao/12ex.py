@@ -24,30 +24,29 @@ hora_trabalhada = float(input('Digite a quantidade de horas trabalhadas: '))
 salario_bruto = valor_hora * hora_trabalhada
 ir = 0
 irp = 0
-inss = salario_bruto * (10/100)
-fgts = salario_bruto * (11/100)
-sindicato = salario_bruto * (3/100)
+inss = salario_bruto * (10 / 100)
+fgts = salario_bruto * (11 / 100)
+sindicato = salario_bruto * (3 / 100)
 total_desconto = ir + inss + sindicato
 
 # LÓGICA
 if salario_bruto <= 900:
-    ir = 0
-    irp = str('ISENTO')
+  ir = 0
+  irp = str('ISENTO')
 
 if salario_bruto > 900:
-    if salario_bruto <= 1500:
-        ir = salario_bruto * (5/100)
-        irp = str('5%')
+  if salario_bruto <= 1500:
+    ir = salario_bruto * (5 / 100)
+    irp = str('5%')
 
 if salario_bruto > 1500:
-    if salario_bruto <= 2500:
-        ir = salario_bruto * (10/100)
-        irp = str('10%')
+  if salario_bruto <= 2500:
+    ir = salario_bruto * (10 / 100)
+    irp = str('10%')
 
 if salario_bruto > 2500:
-    ir = salario_bruto * (20/100)
-    irp = str('20%')
-
+  ir = salario_bruto * (20 / 100)
+  irp = str('20%')
 
 print(f''' 
 Salário Bruto: R$ {salario_bruto}
